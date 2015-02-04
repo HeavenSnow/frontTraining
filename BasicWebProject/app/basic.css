@@ -1,0 +1,58 @@
+/* TODO: 1. 添加一个名为 "form-box" 的样式
+  1. 设置　width: 360px;
+  2. 设置　margin: 90px auto 0 auto;
+*/
+.form-box{
+
+}
+
+.form-bg{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+/* TODO: 2. 添加一个名为 "body" 的样式
+  1. 设置 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+*/
+.body{
+
+}
+
+/* TODO: 3. 添加一个名为 "logoCenter" 的样式
+  1. 设置 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+*/
+.logoCenter{
+
+}
+
+/* TODO: 3. 添加一个名为 "footer" 的样式
+    1. 设置 height　为 60px;
+    2. 设置 margin-top 为 40px;
+    3. 设置 margin-left 为 5%;
+    4. 设置 margin-right 为5%;
+*/
+.footer{
+
+}
+
+/*　TODO: 4. 完善 logoCenterText,　使字体颜色变成 "#017FE5" */
+.logoCenterText{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.form-login{
+	margin-top: 13px;
+	margin-bottom: 1px;
+}
+
+.form-control1{
+  padding-left: 12px;
+  border: 1px solid #eaeaea !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  height: 40px !important;
+  width:30%
+}
