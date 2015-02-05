@@ -19,19 +19,10 @@
 }
 
 /* TODO: 3. 添加一个名为 "logoCenter" 的样式
-  1. 设置 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  1. 使图片距离 top 30px
+  2. 居中显示
 */
 .logoCenter{
-
-}
-
-/* TODO: 3. 添加一个名为 "footer" 的样式
-    1. 设置 height　为 60px;
-    2. 设置 margin-top 为 40px;
-    3. 设置 margin-left 为 5%;
-    4. 设置 margin-right 为5%;
-*/
-.footer{
 
 }
 
@@ -48,6 +39,15 @@
 	margin-bottom: 1px;
 }
 
+.form-control{
+    padding-left: 12px;
+    border: 1px solid #eaeaea !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    height: 40px !important;
+    width:85% !important;
+}
+
 .form-control1{
   padding-left: 12px;
   border: 1px solid #eaeaea !important;
@@ -56,3 +56,46 @@
   height: 40px !important;
   width:30%
 }
+
+/* TODO: 5. 添加一个名为 "captchaInput" 的样式
+    1. 设置 position 为 position;
+    2. 设置左对齐
+*/
+.captchaInput{
+    width: 50% !important;
+    margin-left: 5%;
+}
+
+/* TODO: 6. 添加一个名为 "loginButton" 的样式
+    1. 设置字体大小 14px;
+    2. 设置字的颜色 #fff
+    3. 设置对其方式 居中
+*/
+.loginButton{
+    display: inline-block;
+    padding: 6px 12px;
+    border-color: rgb(12,110,190) !important;
+    border-radius: 3px;
+    background-image: -moz-linear-gradient(90deg,rgb(1,127,229) 0%,rgb(21,138,222) 100%);
+    background-image: -webkit-linear-gradient(90deg,rgb(1,127,229) 0%,rgb(21,138,222) 100%) !important;
+    background-image: -ms-linear-gradient(90deg,rgb(1,127,229) 0%,rgb(21,138,222) 100%);
+}
+
+/* TODO: 7. 添加一个名为 "footer" 的样式
+    1. 设置 height　为 60px;
+    2. 设置 margin-top 为 40px;
+    3. 设置 margin-left 为 5%;
+    4. 设置 margin-right 为5%;
+*/
+.footer{
+
+}
+
+.downloadUrl{
+  text-align: center;
+}
+
+
+
+
+
