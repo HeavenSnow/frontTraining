@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>BasicWebProject Guide</title>
+  <link media="screen" rel="stylesheet" type="text/css" href="result.css">
+  <!--TODO:
+    1. 在 10 行将bootstrap.css引用进来。
+  -->
+
+</head>
+<body>
+   <div class="form-box">
+      <form id="account" name="account" class="form-bg">
+         <div class="body">
+            <div class="logoCenter">
+              <img class="logoCenter" src="../images/logo.png">
+            </div>
+            <div class="logoCenterText">腾讯电脑管家企业版</div>
+            <div class="form-login">
+              <!--TODO:
+                  2. 为第24行的 input 增加一个id, 值为"username"。
+              -->
+              <input type="text" placeholder="帐号" class="form-control">
+            </div>
+            <div class="form-login">
+              <!--TODO:
+                  2. 为第30行的 input 增加一个id, 值为"password"。
+              -->
+              <input type="password" placeholder="密码" class="form-control">
+            </div>
+            <div class="form-login">
+              <input type="text" id="code" placeholder="验证码" class="form-control captchaInput">
+              <!--TODO:
+                  3. 为第37行的 img 增加一个距左 20px 的style。
+              -->
+              <img name="captchaCode" src="../images/ccap.bmp" onclick="onClickImages()">
+            </div>
+
+            <div class="footer">
+              <!--TODO:
+                  4. 修改第41行的button样式，将自定义样式"loginButton"换成bootstrap的样式"btn btn-primary"。
+              -->
+              <button id="btn" type="submit" class="loginButton">登 录</button>
+              <div style="float:right;margin-top:10px">
+                <input type="checkbox" name="remember_me" style="margin: 0px 6px 0px 0px;">记住密码
+              </div>
+            </div>
+            <span></span>
+         </div>
+
+      </form>
+      <a href="#" target="_blank" style="margin-left:135px">
+        <span class="downloadUrl">下载客户端</span>
+      </a>
+   </div>
+
+<!--TODO:
+  5. 在 58 行将jquery.min.js引用进来。
+-->
+
+<script type='text/javascript' src="result.js"></script>
+</body>
+</html>
