@@ -1,7 +1,10 @@
 /**
  * Created by developer on 2/5/15.
  */
-
+var accounts = [
+  {name:"super",password:"super123",code:"2273"},
+  {name:"trantect",password:"abc123_",code:"test"}
+];
 var onClickImages = function(){
   document.getElementById("btn").style.color = "red";
   console.log("click image");
@@ -9,9 +12,13 @@ var onClickImages = function(){
 
 $("#account").submit(function(){
 
-  if(($("#username").val() === "super")||
-    ($("#password").val() === "super123")||
-    ($("#code").val() === "2273")){
+  var name = $("#username").val();
+  var password = $("#password").val();
+  var code = $("#code").val();
+  var curAccount = {name:name,password:password,code:code};
+  var isExist = _.where(accounts,curAccount);
+
+  if(isExist.length != 0){
     window.confirm("Congratulation! You have logined Success");
   }else{
     $(".form-login").addClass("has-error");
