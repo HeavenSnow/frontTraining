@@ -1,0 +1,62 @@
+.form-box {
+  width: 360px;
+  margin: 90px auto 0 auto;
+}
+.form-bg {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.body {
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(194, 194, 194, 0.5);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(194, 194, 194, 0.5);
+  box-shadow: 0px 2px 3px 0px rgba(194, 194, 194, 0.5);
+  background: #f9f9f9;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer {
+  height: 60px;
+  margin-top: 40px;
+}
+.logoCenter {
+  text-align: center;
+  margin-top: 30px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoCenterText {
+  text-align: center;
+  color: #017FE5;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.form-login {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.form-control {
+  height: 40px !important;
+}
+.loginButton {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-color: #0c6ebe !important;
+  border-radius: 3px;
+  background-image: -moz-linear-gradient(90deg, #017fe5 0%, #158ade 100%);
+  background-image: -webkit-linear-gradient(90deg, #017fe5 0%, #158ade 100%) !important;
+  background-image: -ms-linear-gradient(90deg, #017fe5 0%, #158ade 100%);
+}
+.captchaInput {
+  position: relative;
+  width: 50% !important;
+  float: left;
+}
+.downloadUrl {
+  text-align: center;
+}
+/*# sourceMappingURL=demo/result.css.map */
