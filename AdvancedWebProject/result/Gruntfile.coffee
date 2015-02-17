@@ -9,7 +9,7 @@ module.exports = (grunt) ->
     coffee:
       development:
         options:
-          sourceMap: true
+          sourceMap: false
         files: [
           expand: true
           cwd: "demo/"
@@ -21,7 +21,7 @@ module.exports = (grunt) ->
     less:
       development:
         options:
-          sourceMap: true
+          sourceMap: false
         files: [
           expand: true
           cwd: "demo/"
@@ -33,6 +33,7 @@ module.exports = (grunt) ->
     jade:
       development:
         options:
+          pretty: true
           data:
             debug: false
         files:

@@ -2,4 +2,7 @@
 node_modules/*
 bower_components/*
 demo/*.map
+demo/.js
+demo/.html
+demo/.css
 
