@@ -23,7 +23,7 @@ html
           .form-login
             span
           .footer
-            button.btn.btn-primary(type="submit",ng-class='',ng-click="onEnterClick()") 登 录
+            button.btn.btn-primary(type="submit",ng-class="{'buttonClick':clickFlag}",ng-click="onEnterClick()") 登 录
             div(style="float:right;margin-top:10px")
               input(type="checkbox", name="remember_me", style="margin: 0px 6px 0px 0px;")
               | 记住密码

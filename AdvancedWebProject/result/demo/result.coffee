@@ -2,14 +2,16 @@ logModule = angular.module('logModule',['ngTable'])
 
 logModule.controller('logCtrl',['$scope','ngTableParams',($scope,ngTableParams)->
 
+  $scope.clickFlag = false
+
   accounts = [
     {name:"super",password:"super123",code:"2273"}
     {name:"trantect",password:"abc123_",code:"test"}
   ]
 
   $scope.onClickImages = ()->
-    document.getElementById("btn").style.color = "red";
     console.log("click image");
+    $scope.clickFlag = true;
 
   $scope.onEnterClick = ()->
     curAccount =
@@ -24,5 +26,6 @@ logModule.controller('logCtrl',['$scope','ngTableParams',($scope,ngTableParams)-
     else
       $(".form-login").addClass("has-error")
       alert("Login Failed!")
-
+    
+    $scope.clickFlag = false
 ])
