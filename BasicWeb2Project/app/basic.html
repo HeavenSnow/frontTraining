@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>BasicWebProject Guide</title>
   <link media="screen" rel="stylesheet" type="text/css" href="result.css">
-  <!--TODO:
-    1. 在 10 行将bootstrap.css引用进来。
+  <!--TODO: 0
+    1. 在第 10 行将下载的包管理文件夹下的bootstrap.css引入进来。
   -->
 
 </head>
@@ -18,28 +18,29 @@
             </div>
             <div class="logoCenterText">腾讯电脑管家企业版</div>
             <div class="form-login">
-              <!--TODO:
-                  2. 为第24行的 input 增加一个id, 值为"username"。
+              <!--TODO: 1
+                  1. 首先在 basic.css 文件的 'TODO:1' 与 'TODO:2' 处完善名为"body"与"form-control"的样式 ;
+                  2. 为第25行的 input 增加一个id, 值为"username"。
               -->
               <input type="text" placeholder="帐号" class="form-control">
             </div>
             <div class="form-login">
-              <!--TODO:
+              <!--TODO: 2
                   2. 为第30行的 input 增加一个id, 值为"password"。
               -->
               <input type="password" placeholder="密码" class="form-control">
             </div>
             <div class="form-login">
               <input type="text" id="code" placeholder="验证码" class="form-control captchaInput">
-              <!--TODO:
+              <!--TODO: 3
                   3. 为第37行的 img 增加一个距左 20px 的style。
               -->
               <img name="captchaCode" src="../images/ccap.bmp" onclick="onClickImages()">
             </div>
 
             <div class="footer">
-              <!--TODO:
-                  4. 修改第41行的button样式，将自定义样式"loginButton"换成bootstrap的样式"btn btn-primary"。
+              <!--TODO: 4
+                  4. 修改第44行的button样式，将自定义样式"loginButton"换成bootstrap的样式"btn btn-primary"。
               -->
               <button id="btn" type="submit" class="loginButton">登 录</button>
               <div style="float:right;margin-top:10px">
@@ -56,7 +57,7 @@
    </div>
 
 <!--TODO:
-  5. 在 61 行将jquery.min.js引用进来。
+  5. 在 61 行将下载的包管理文件夹下的jquery.min.js引入进来。
 -->
 
 <script type='text/javascript' src="result.js"></script>
