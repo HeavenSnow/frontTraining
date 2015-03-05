@@ -51,27 +51,40 @@
      - demo/*.css
      
 ## 3. Use commands in terminal
-### (1) Install some plugins which are used for backend:
+   * Install some plugins which are used for backend: 
       ```
         npm install
       ```
       - It will read package.json and download all plugins.
       - It will create a directory named node_modules and stores all the plugins.
       
-### (2) Install some plugins which are used for frontend:
+   * Install some plugins which are used for frontend: 
       ```
         node_modules/bower/bin/bower install
       ```
       - It will read bower.json and download all plugins.
       - It will create a directory named bower_components and stores all the plugins.
       
-### (3) Use grunt to start
+   * Use grunt to start: 
       ```
         grunt
       ```
       - It will compile "coffee" file to "js".
       - It will compile "jade" file to "html".
       - It will compile "less" file to "css".
+      
+## 4. Resource
+   * Jade
+      - [Jade Api](https://github.com/jadejs/jade/blob/master/Readme_zh-cn.md)
+      - [HTML to Jade](http://html2jade.vida.io/)
+      
+   * Less
+      - [LESS Api](http://less.bootcss.com/)
+      - [HTML to Jade](http://html2jade.vida.io/)
+      
+   * CoffeeScript
+      - [CoffeeScript Api](http://coffeescript.org/)
+      - [Javascript to coffee](http://js2.coffee/)
       
       
       

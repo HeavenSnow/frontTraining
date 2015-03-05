@@ -20,7 +20,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* TODO: 3. 添加一个名为 "logoCenter" 的样式
+/* TODO: 3. 修改一个名为 "logoCenter" 的样式
   1. 使图片距离 top 30px
   2. 居中显示
 */
@@ -59,7 +59,7 @@
   width:30%
 }
 
-/* TODO: 5. 添加一个名为 "captchaInput" 的样式
+/* TODO: 5. 修改一个名为 "captchaInput" 的样式
     1. 设置 position 为 position;
     2. 设置左对齐
 */
@@ -68,7 +68,7 @@
     margin-left: 5%;
 }
 
-/* TODO: 6. 添加一个名为 "loginButton" 的样式
+/* TODO: 6. 修改一个名为 "loginButton" 的样式
     1. 设置字体大小 14px;
     2. 设置字的颜色 #fff
     3. 设置对其方式 居中
@@ -83,7 +83,7 @@
     background-image: -ms-linear-gradient(90deg,rgb(1,127,229) 0%,rgb(21,138,222) 100%);
 }
 
-/* TODO: 7. 添加一个名为 "footer" 的样式
+/* TODO: 7. 修改一个名为 "footer" 的样式
     1. 设置 height　为 60px;
     2. 设置 margin-top 为 40px;
     3. 设置 margin-left 为 5%;

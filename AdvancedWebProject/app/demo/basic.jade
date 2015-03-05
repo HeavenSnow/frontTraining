@@ -1,3 +1,58 @@
-//
-   Created by developer on 3/4/15.
+doctype html
+html
+  head(lang="en")
+    meta(charset="UTF-8")
+    title BasicWebProject Guide
+    // TODO: 1
+    //  1. 引入bootstrap.css。
+    //  2. 引入result.css。
+    script(type='text/javascript', src='../bower_components/angular/angular.min.js')
 
+  // TODO: 2
+  //  1. 在basic.coffee文件的TODO:1处创建一个module对象,名叫"logModule"。
+  //  2. 将'logModule'引用到第14行的body标签上。
+  body
+    // TODO: 3
+    //1. 在basic.coffee文件的TODO:2处创建一个controller对象,名叫"logCtrl"。
+    //2. 将'logCtrl'引用到第18行的form-box上。
+    .form-box
+      form.form-bg(name="account")
+        .body
+          .logoCenter
+            img.logoCenter(src="../../images/logo.png")
+          .logoCenterText 腾讯电脑管家企业版
+          .form-login
+            input.form-control(ng-model='name',type="text", placeholder="帐号")
+          .form-login
+            input.form-control(ng-model='password',type="password", placeholder="密码")
+          .form-login
+            input.form-control.captchaInput(ng-model='code',type="text", placeholder="验证码")
+            // TODO: 4
+            // 1. 在basic.coffee文件的controller中新增一个onClickImages方法。
+            // 2. 用ngClick实现当点击第33行的img时调用onClickImages方法。
+            img(name="captchaCode", style="margin-left: 20px", src="../../images/ccap.bmp", ng-click="onClickImages()")
+          .form-login
+            span
+          .footer
+            // TODO: 5
+            // 1. 在basic.coffee文件的controller中新增一个clickFlag变量,初始化为false。
+            // 2. 在basic.coffee文件的controller中新增一个onEnterClick方法。
+            // 3. 在basic.less文件的TODO：1处根据要求新增一个样式。
+            // 4. 用ngClass实现“buttonClick”样式与“clickFlag”变量的绑定。。
+            // 5. 用ngClick实现当点击第43行的button时调用onEnterClick方法。
+            button.btn.btn-primary(type="submit",ng-class="{'buttonClick':clickFlag}",ng-click="onEnterClick()") 登 录
+            div(style="float:right;margin-top:10px")
+              input(type="checkbox", name="remember_me", style="margin: 0px 6px 0px 0px;")
+              | 记住密码
+          span
+      a(href="#", target="_blank", style="margin-left:135px")
+        // TODO: 6
+        // 1. 在第48行的a标签内添加一个 span 标签；
+        // 2. 设置 span 标签的class为"downloadUrl",内容为“下载客户端”
+    script(type="text/javascript", src="../bower_components/jquery/dist/jquery.min.js")
+    script(type="text/javascript", src="../bower_components/underscore/underscore.js")
+    // TODO: 7
+    //  1. 引入ng-table.min.js。
+    //  2. 引入result.js。
+    script(type='text/javascript' src="ng-table.min.js")
+    script(type="text/javascript", src="./result.js")
