@@ -38,7 +38,7 @@ html
             // 1. 在basic.coffee文件的controller中新增一个clickFlag变量,初始化为false。
             // 2. 在basic.coffee文件的controller中新增一个onEnterClick方法。
             // 3. 在basic.less文件的TODO：1处根据要求新增一个样式。
-            // 4. 用ngClass实现“buttonClick”样式与“clickFlag”变量的绑定。。
+            // 4. 用ngClass实现“buttonClick”样式与“clickFlag”变量的绑定。
             // 5. 用ngClick实现当点击第43行的button时调用onEnterClick方法。
             button.btn.btn-primary(type="submit",ng-class="{'buttonClick':clickFlag}",ng-click="onEnterClick()") 登 录
             div(style="float:right;margin-top:10px")
@@ -47,12 +47,11 @@ html
           span
       a(href="#", target="_blank", style="margin-left:135px")
         // TODO: 6
-        // 1. 在第48行的a标签内添加一个 span 标签；
-        // 2. 设置 span 标签的class为"downloadUrl",内容为“下载客户端”
+        // 1. 在第48行的a标签内添加一个 span 标签。
+        // 2. 在basic.less文件的TODO：2处根据要求新增一个样式。
+        // 3. 设置 span 标签的class为"downloadUrl",内容为“下载客户端”。
     script(type="text/javascript", src="../bower_components/jquery/dist/jquery.min.js")
     script(type="text/javascript", src="../bower_components/underscore/underscore.js")
     // TODO: 7
     //  1. 引入ng-table.min.js。
     //  2. 引入result.js。
-    script(type='text/javascript' src="ng-table.min.js")
-    script(type="text/javascript", src="./result.js")
