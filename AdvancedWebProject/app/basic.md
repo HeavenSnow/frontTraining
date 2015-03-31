@@ -16,6 +16,7 @@
   3. Add some libs into "devDependencies": 
     - "bower": "1.3.12"
     - "grunt": "0.4.5"
+    - "grunt-cli": "0.1.13"
     - "grunt-contrib-coffee": "0.10.1"
     - "grunt-contrib-less": "*"
     - "grunt-contrib-jade": "*"
@@ -67,7 +68,7 @@
       
    * Use grunt to start: 
       ```
-        grunt
+        node_modules/.bin/grunt
       ```
       - It will compile "coffee" file to "js".
       - It will compile "jade" file to "html".
